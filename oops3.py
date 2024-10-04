@@ -1,5 +1,5 @@
 class Experince:
-    """ Encapsulation get & set & property"""
+    """ Encapsulation get & set & propertys"""
     def __init__ (self, Exp):
         self._Exp = Exp
     
