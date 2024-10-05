@@ -20,8 +20,8 @@ class Cat(Animal):
     def sound(self):
         return f"{self.name} is Meowing"
     
-dogg = Dog("tommy")
-catt = Cat("pussy")
+dogg = Dog("Tommy")
+catt = Cat("Snow bell")
 
 print(dogg.sound())
 print(dogg.eat())
