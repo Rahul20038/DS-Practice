@@ -19,12 +19,18 @@ class Dog(Animal):
         return f"{self.name} is Barking."
 class Cat(Animal):
     def sound(self):
-        return f"{self.name} is Meowing"
+        return f"{self.name} is Meowing."
+class Lion(Animal):
+    def sound(self):
+        return f"{self.name} is sleeping."
     
 dogg = Dog("Tommy")
 catt = Cat("Snow bell ")
+lion = Lion("Rah")
 
 print(dogg.sound())
 print(dogg.eat())
 print(catt.sound())
 print(catt.eat())
+print(lion.sound())
+print(lion.eat())
