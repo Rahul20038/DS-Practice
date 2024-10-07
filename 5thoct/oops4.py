@@ -21,7 +21,7 @@ class Cat(Animal):
         return f"{self.name} is Meowing"
     
 dogg = Dog("Tommy")
-catt = Cat("Snow bell")
+catt = Cat("Snow bell ")
 
 print(dogg.sound())
 print(dogg.eat())
