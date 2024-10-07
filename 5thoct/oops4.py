@@ -8,6 +8,7 @@
 rahul_emp = Employee("Rahul", 65000)
 rahul_emp.Loan()
 """
+#Inheritance concept 
 class Animal():
     def __init__(self, name):
         self.name = name
